@@ -2,24 +2,14 @@
 
 
 ## To run application
-### npm i 
-
 ``` shell
-
+npm i
 ```
 ### and
-
 ``` shell
-
-```
-### npm start
-
-``` shell
-
+npm start
 ```
 ## To run unit tests
-### npm test
-
 ``` shell
-
+npm test
 ```
