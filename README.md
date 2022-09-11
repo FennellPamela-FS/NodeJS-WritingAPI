@@ -2,8 +2,8 @@
 
 ## Application
 ``` shell
-An API that calls the Random User API to use two GET methods:
-    - GET: to get all your API data
+An API that makes a call to Generate random testimonial data using two GET methods:
+    - GET: to get all API data
     - GET: by an id, name, and other 
       unique fields that will return one piece of data from this API
 ```
