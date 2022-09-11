@@ -1,6 +1,10 @@
-# NodeJS WritingAPI: 2.4 - Let's write an API assignment
+# NodeJS WritingAPI
 
-## Application
+## 2.4 - Let's write an API assignment
+### and
+## 2.6 - Testing an API assignment
+
+### Application
 ``` shell
 An API that makes a call to get a list of random user testimonial data using two GET methods:
     - GET: to get all API data
@@ -8,15 +12,15 @@ An API that makes a call to get a list of random user testimonial data using two
       unique fields that will return one piece of data from this API
 ```
 
-## To run application
+#### To run application
 ``` shell
 npm i
 ```
-### and
+#### and
 ``` shell
 npm start
 ```
-## To run unit tests
+#### To run unit tests
 ``` shell
 npm test
 ```
