@@ -12,6 +12,7 @@ randomDataRouter.get('/', (req, res, next) => {
             res.status(500).json({
                 error: {
                     message: err.message,
+                    method: req.method
                 },
             });
         });
@@ -27,7 +28,7 @@ randomDataRouter.get('/:id', (req, res, next) => {
         .catch(err => {
             res.status(500).json({
                 error: {
-                    message: err.message,
+                    message: err.message
                 },
             });
         });
